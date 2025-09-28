@@ -104,7 +104,7 @@ func main() {
 	http.HandleFunc("/send-email", sendEmailHandler)
 
 	// Запускаем сервер
-	port := ":8080"
+	port := ":80"
 	log.Printf("Starting server on port %s", port)
 	log.Printf("Use POST /send-email to send emails")
 
